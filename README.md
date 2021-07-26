@@ -48,3 +48,9 @@ $ cd client
 $ yarn install
 $ yarn start
 ```
+
+application will run in below url
+
+http://localhost:3000/
+username:admin
+password:admin
