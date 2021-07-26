@@ -1,4 +1,4 @@
-# financial-charts-app-master
+# docker-concentrix-charts-app-master
 
 # Introduction
 
