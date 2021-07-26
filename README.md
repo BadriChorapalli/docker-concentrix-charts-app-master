@@ -3,6 +3,15 @@
 # Introduction
 
 This repository is the result of the Concentrix Full Stack MERN Challenge
+## If you have docker installed in your system
+$ cd docker-concentrix-charts-app-master
+$ docker-compose up
+
+# for stopping
+$ docker-compose stop
+
+## If you does noy have docker in your system
+
 
 ## What you should install?
 
@@ -25,14 +34,14 @@ Firstly, you should install
 If you have all the prerequisites installed you should verify if your MongoDB is up.
 
 ```
-$ cd concentrix-charts-app-master
+$ cd docker-concentrix-charts-app-master
 $ cd server
 $ yarn install
 $ node index.js
 ```
 
 ```
-$ cd concentrix-charts-app-master
+$ cd docker-concentrix-charts-app-master
 $ cd client
 $ yarn install
 $ yarn start
