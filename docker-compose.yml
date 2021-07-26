@@ -1,0 +1,39 @@
+version: '3.8'
+services: 
+    api:
+        container_name: concentrix-api-container
+        restart: always
+        build: ./server
+        ports: 
+            - "5000:5000"
+        networks:
+            - mern-app    
+        depends_on: 
+            - mongo
+    client:
+        container_name: concentrix-client-container
+        restart: always
+        build: ./client
+        ports: 
+            - "3000:3000"
+        networks:
+            - mern-app    
+        depends_on: 
+            - api
+    mongo:
+        container_name: mongo-backend
+        image: mongo:3.6.19-xenial
+        expose: 
+          - "27017"
+        ports: 
+          - "27017:27017"
+        networks:
+            - mern-app      
+        volumes: 
+          - apiDB:/data/db
+networks:
+    mern-app:
+        driver: bridge          
+volumes: 
+    apiDB:
+        driver: local                                 

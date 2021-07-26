@@ -1,0 +1,192 @@
+.ChartsLeftPanel{
+    width:18%;
+    float:left;
+    margin:5px;
+}
+.ChartsRightPanel{
+    width:80%;
+    float:left;
+    margin:5px;
+    background:black !important;
+    margin-top:10px !important;
+}
+.ChartsLeftPanel h4{
+    font-size: 14px;
+    width:100%;
+    text-align: center;
+}
+.ChartsLeftPanel div{
+    font-size: 14px;
+    width:100%;
+    text-align: center;
+}
+.dragChartCards{
+    -webkit-border-radius: 35px; 
+    border-radius: 35px; 
+    background: #ececf8;
+    -webkit-box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+    width:100% !important;
+    padding:20px !important;
+}
+.createChartCards{
+
+    width:100% !important;
+    padding:20px !important;
+}
+.chartCards Form{
+    margin:10px
+}
+.chartItems{
+    -webkit-border-radius: 18px; 
+    border-radius: 18px; 
+    background: #ececf8;
+    -webkit-box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+}
+.dragHere{
+    padding: 9%;
+    text-align: center;
+    font-size:30px;
+    font-weight:bold;
+    color:#007bff
+}
+.card-body{
+    background:#ececf8 !important;
+}
+.chartCards .card {
+    background:#ececf8 !important;
+    color:back !important;
+    border:0px !important;
+}
+.createChartCards .col{
+    margin:20px;
+    padding:20px;
+    float:left;
+    -webkit-border-radius: 35px; 
+    border-radius: 35px; 
+    background: #ececf8;
+    -webkit-box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+}
+.chartCards .container{
+    color:back !important;
+    padding:20px;
+    margin-top:-20px !important;
+}
+.formFooter{
+    text-align:center;
+    background:#ececf8 !important;
+    border:0px;
+}
+.formFooter .btn{
+    margin:10px;
+    width:120px;
+    -webkit-box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+    
+}
+.formFooter .btn{
+    margin:10px;
+    width:120px;
+    -webkit-box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+    
+}
+ .list-group-flush .list-group-item{
+    background:#ececf8 !important;
+    border:0px !important;
+}
+input[type=file] {
+    border-radius: 5px !important;  
+  cursor: pointer;
+  width: 150px;
+  height: 36px;
+  overflow: hidden;
+  -webkit-box-shadow: 12px 12px 24px #c9c9d3,
+  -12px -12px 24px #ffffff;
+  box-shadow: 12px 12px 24px #c9c9d3,
+  -12px -12px 24px #ffffff;
+}
+
+input[type=file]:before {
+    border-radius: 5px !important;  
+  width: 158px;
+  height: 36px;
+  font-size: 16px;
+  line-height: 36px;
+  content: 'Select CSV File';
+  display: inline-block;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 0 10px;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-box-shadow: 12px 12px 24px #c9c9d3,
+  -12px -12px 24px #ffffff;
+  box-shadow: 12px 12px 24px #c9c9d3,
+  -12px -12px 24px #ffffff;
+}
+
+input[type=file]::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.chartItems .row{ white-space: nowrap;}
+.delete{
+    border-radius: 50px !important;
+    float:right;
+    border:0px !important;
+    margin-right: -20px;
+    -webkit-box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+}
+.formFooter .col{
+    margin:0px !important;
+    padding:0px !important;
+    float:left;
+    -webkit-border-radius: 0px !important; 
+    border-radius: 0px !important; 
+    background: #ececf8;
+    -webkit-box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+    box-shadow: 0px 0px 0px #c9c9d3,
+    -0px -0px 0px #ffffff  !important;
+}
+
+.custom-ui {
+    border-radius: 35px; 
+    text-align: center;
+    width: 500px;
+    padding: 40px;
+    background: #28bae6;
+    color: #fff;
+
+}
+.custom-ui > button {
+    width: 160px;
+    padding: 10px;
+    border: 0px solid #229ec4;
+    margin: 10px;
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 50px;
+background: #28bae6;
+box-shadow:  20px 20px 60px #229ec4,
+             -20px -20px 60px #2ed6ff;
+
+}

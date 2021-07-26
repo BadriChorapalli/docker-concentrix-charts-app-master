@@ -1,0 +1,14 @@
+body{
+    background:#ECECF8 !important;
+}
+.concentrix-bg-dark{
+    -webkit-border-radius: 25px; 
+    border-radius: 25px; 
+    background:#ECECF8 !important;
+    -webkit-box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #c9c9d3,
+    -12px -12px 24px #ffffff;
+    color:blue;
+}
+.concentrix-bg-dark a{color:rgb(24, 164, 219) !important}
